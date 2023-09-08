@@ -1,11 +1,11 @@
 # laravel product crud
 
-##installation
+###installation
 ```sh
 composer require nahidprince7/crud
 ```
 
-##for database migration
+###for database migration
 ```php
 php artisan migrate
 ```
