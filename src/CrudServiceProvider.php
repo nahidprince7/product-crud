@@ -7,7 +7,7 @@ use Illuminate\Support\ServiceProvider;
 class CrudServiceProvider extends ServiceProvider{
     public function register()
     {
-        $this->app->make('Nahid\Crud\BrandController');
+        $this->app->make('Nahid\Crud\ProductController');
     }
     public function boot(){
         $this->loadMigrationsFrom(__DIR__.'/database/migrations');
