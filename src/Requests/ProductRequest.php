@@ -32,7 +32,8 @@ class ProductRequest extends FormRequest
     {
         return [
             'title.required' => 'A product title is required',
-            'short_descriptions.max' => 'size of short description is 255 characters',
+            'title.max' => 'Please enter product title within 30 characters',
+            'short_descriptions.max' => 'Please enter short description within 255 characters',
         ];
     }
 
