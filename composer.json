@@ -1,0 +1,29 @@
+{
+    "name": "nahid/crud",
+    "description": "crud package",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Nahid\\Crud\\": "src/",
+            "Nahid\\Crud\\Requests\\": "src/Requests/"
+
+
+        }
+    },
+    "authors": [
+        {
+            "name": "Nahid"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nahid\\Crud\\CrudServiceProvider"
+            ],
+            "aliases": {
+                "Crud": "Nahid\\Crud\\Facade"
+            }
+        }
+    }
+}
