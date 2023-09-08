@@ -10,8 +10,11 @@ composer require nahidprince7/crud
 php artisan migrate
 ```
 
-#### Publish configuration
+## To start laravel server
 
 ```sh
-php artisan vendor:nahidprince7/crud
+php artisan serve
 ```
+
+## Access the crud functionality from below URL from your local
+http://127.0.0.1:8000/product
